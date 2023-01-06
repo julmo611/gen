@@ -1,0 +1,272 @@
+.becomeAGoat {
+	background-image: url('../assets/Join-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	@include centerBox();
+	.titleContainer {
+		@include centerBox();
+		h1 {
+			font-family: $fontFamily;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 50px;
+			line-height: 58px;
+			text-align: center;
+			width: 100%;
+			margin-top: 5px;
+			@media (max-width: 768px) {
+				font-size: 45px;
+				margin-top: 5px;
+			}
+		}
+		.titleBox {
+			@include centerBox();
+			max-width: 781px;
+
+			h2 {
+				font-family: $headerTitle;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 40px;
+				line-height: 70px;
+				width: 100%;
+				@media (max-width: 768px) {
+					font-size: 40px;
+					line-height: 60px;
+				}
+				span {
+					padding: 5px 20px;
+					background: linear-gradient(
+						271.29deg,
+						#300055 -5.97%,
+						#300055 54.95%,
+						#300055 108.71%
+					);
+					box-shadow: 0px 0px 121px #e767a7;
+					border-radius: 10px;
+					strong {
+						background: linear-gradient(180deg, #e767a7 10%, #ffbbdd 100%);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+						background-clip: text;
+						text-fill-color: transparent;
+					}
+				}
+			}
+		}
+	}
+	.boxesContainer {
+		margin: 0 auto;
+		@include centerBox(space-between, center);
+		max-width: 1138px;
+		width: 100%;
+		margin-top: 10px;
+		@media (max-width: 768px) {
+			margin-top: 20px;
+		}
+		.joinD {
+			width: 50%;
+			max-width: 550px;
+			position: relative;
+			padding: 15px 67px;
+			margin: 0 auto;
+			background: linear-gradient(180deg, #5c69f4 10%, #cbcfff 100%);
+			/* Purple Blur photo */
+
+			box-shadow: 0px 0px 121px #af58ff;
+			border-radius: 40px;
+			@media (max-width: 768px) {
+				width: 100%;
+				margin-bottom: 30px;
+			}
+			.wMark {
+				position: absolute;
+				top: 15px;
+				right: 20px;
+				width: 180px;
+				height: auto;
+			}
+			h3 {
+				font-family: $fontFamily;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 45px;
+				line-height: 60px;
+				@media (max-width: 768px) {
+					font-size: 23px;
+					line-height: 25px;
+				}
+			}
+			h2 {
+				font-family: $headerTitle;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 48px;
+				line-height: 61px;
+				@media (max-width: 768px) {
+					font-size: 30px;
+					line-height: 35px;
+				}
+			}
+			.buttonBox {
+				margin-top: 40px;
+				max-width: 257px;
+				width: 100%;
+
+				text-align: center;
+				background: linear-gradient(180deg, #5c69f4 -16.67%, #cdd1ff 100%);
+				border-radius: 40px;
+				filter: drop-shadow(0px 0px 36px #5c69f4);
+				a {
+					padding: 10px;
+					display: block;
+				}
+			}
+		}
+		.followUs {
+			width: 50%;
+			max-width: 550px;
+			margin: 0 auto;
+			position: relative;
+			padding: 15px 67px;
+			background: linear-gradient(135.12deg, #d12952 0%, #fdc2de 100%);
+			/* Purple Blur photo */
+
+			box-shadow: 0px 0px 121px #af58ff;
+			border-radius: 40px;
+			@media (max-width: 768px) {
+				width: 100%;
+				margin-bottom: 30px;
+			}
+			.wMark {
+				position: absolute;
+				top: 5px;
+				right: 10px;
+			}
+			h3 {
+				font-family: $fontFamily;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 45px;
+				line-height: 60px;
+				@media (max-width: 768px) {
+					font-size: 23px;
+					line-height: 25px;
+				}
+			}
+			h2 {
+				font-family: $headerTitle;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 48px;
+				line-height: 61px;
+				@media (max-width: 768px) {
+					font-size: 30px;
+					line-height: 35px;
+				}
+			}
+			.followLinks {
+				margin-top: 35px;
+				@include centerBox(space-evenly, center);
+				img {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+		.newsletterBox {
+			position: relative;
+			margin-top: 10px;
+			padding: 15px 67px;
+			width: 100%;
+			background: linear-gradient(135.12deg, #107fae 0%, #b5f1fb 100%);
+			/* Purple Blur photo */
+
+			box-shadow: 0px 0px 121px #af58ff;
+			border-radius: 40px;
+			.wMark {
+				position: absolute;
+				top: 25px;
+				right: 20px;
+				z-index: 0;
+			}
+			h2 {
+				font-family: $headerTitle;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 48px;
+				line-height: 61px;
+				@media (max-width: 768px) {
+					font-size: 24px;
+					line-height: 25px;
+				}
+			}
+			.mailchimpS {
+				z-index: 1;
+				margin-top: 20px;
+				border: 2px solid $dark;
+				background-color: $light;
+				position: relative;
+				padding: 3px;
+				@media (max-width: 768px) {
+					border: none;
+					background-color: transparent;
+				}
+				.inputBox {
+					max-width: 100%;
+
+					input {
+						width: 68%;
+						padding-left: 20px;
+						font-size: 24px;
+						color: $dark;
+						@media (max-width: 768px) {
+							width: 100%;
+							background-color: $light;
+
+							border-radius: 12px;
+							border: 1px solid $dark;
+							text-align: center;
+						}
+					}
+				}
+				.submButton {
+					width: 30%;
+					// padding: 15px;
+					@media (max-width: 768px) {
+						width: 100%;
+						padding: 5px;
+						margin: 10px auto 0;
+					}
+				}
+			}
+		}
+	}
+	.oneUpSubt {
+		@include centerBox();
+		font-family: $fontFamily;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 85px;
+		text-align: center;
+		margin: 20px auto;
+		strong {
+			margin-left: 10px;
+		}
+
+		@media (max-width: 1440px) {
+			font-size: 50px;
+			img {
+				width: 170px;
+			}
+		}
+		@media (max-width: 768px) {
+			font-size: 25px;
+			margin: 0px auto;
+			img {
+				width: 100px;
+			}
+		}
+	}
+}

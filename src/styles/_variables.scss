@@ -1,0 +1,141 @@
+// All varibales like buttons
+
+//Focus input
+:focus-visible {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+// Buttons
+
+.orangeButton {
+	@extend %orageButton;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 60px;
+	gap: 10px;
+	line-height: 70px;
+	max-width: 469px;
+	width: 100%;
+	// width: hug(241px);
+	font-size: 40px;
+	font-weight: 700;
+	@media (max-width: 768px) {
+		font-size: 24px;
+		line-height: 20px;
+		max-width: 350px;
+		padding: 15px 30px;
+	}
+}
+.yellowButton {
+	@extend %yellowButton;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 26px;
+	gap: 10px;
+	line-height: 70px;
+	max-width: 469px;
+	width: 100%;
+	font-size: 45px;
+	font-weight: 700;
+	@media (max-width: 1440px) {
+		max-width: 154px;
+		height: 41px;
+		font-size: 24px;
+		padding: 5px 3px;
+	}
+	@media (max-width: 768px) {
+		max-width: 154px;
+		height: 41px;
+		padding: 5px 3px;
+		font-size: 18px;
+	}
+}
+
+.yellowButtonTwo {
+	@extend %yellowButton;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 10px;
+	gap: 10px;
+	line-height: 30px;
+	max-width: 234px;
+	width: 100%;
+	font-size: 30px;
+	font-weight: 700;
+	@media (max-width: 1440px) {
+		max-width: 154px;
+		height: 41px;
+		font-size: 24px;
+		padding: 5px 3px;
+	}
+	@media (max-width: 768px) {
+		max-width: 154px;
+		height: 41px;
+		padding: 5px 3px;
+		font-size: 18px;
+	}
+}
+
+.mailchimpS {
+	border: 1px solid $light;
+	border-radius: 25px;
+	padding: 5px;
+
+	.mailchimpBox {
+		div,
+		.inputBox {
+			margin: 5px auto;
+			max-width: 848px;
+			width: 100%;
+			input {
+				font-size: 22px;
+				padding: 5px;
+				background-color: transparent;
+				border: none;
+				color: $light;
+				@media (max-width: 600px) {
+					margin-bottom: 10px;
+					width: 190px;
+				}
+			}
+			button {
+				font-size: 22px;
+				color: white;
+				margin-left: 10px;
+				background-color: $dark;
+				border-radius: 25px;
+				padding: 7px 35px;
+				cursor: pointer;
+				@media (max-width: 600px) {
+					border-radius: 12px;
+				}
+				&:hover {
+					background-color: rgb(24, 24, 24);
+					border: 2px rgb(24, 24, 24) solid;
+				}
+			}
+		}
+		.submButton {
+			font-size: 22px;
+			color: white;
+			margin-left: 10px;
+			background-color: $dark;
+			border-radius: 25px;
+			padding: 7px 35px;
+			cursor: pointer;
+			@media (max-width: 600px) {
+				border-radius: 12px;
+			}
+			&:hover {
+				background-color: rgb(24, 24, 24);
+				border: 2px rgb(24, 24, 24) solid;
+			}
+		}
+	}
+}

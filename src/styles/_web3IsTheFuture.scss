@@ -1,0 +1,137 @@
+.web3IsTheFuture {
+	position: relative;
+	padding: 50px 10px;
+	background: linear-gradient(
+		179.1deg,
+		#6c3696 1.55%,
+		#8f5cbe 14.84%,
+		#372185 31.8%,
+		#3e97a3 57.3%,
+		#124da0 75.48%,
+		#3b0367 100%
+	);
+	@include centerBox();
+	.imagesContainer {
+		@include centerBox();
+		width: 100%;
+		.docBrown {
+			position: relative;
+			max-width: 350px;
+			width: 100%;
+			@include centerBox();
+			@media (max-width: 1440px) {
+				max-width: 310px;
+			}
+			img {
+				width: 100%;
+			}
+			@media (max-width: 768px) {
+				display: none;
+			}
+		}
+		.btfImage {
+			@include centerBox();
+			position: relative;
+			max-width: 650px;
+			padding: 20px;
+			@media (max-width: 1440px) {
+				max-width: 550px;
+			}
+			img {
+				width: 100%;
+			}
+		}
+		.mcfly {
+			position: relative;
+			max-width: 350px;
+			width: 100%;
+			@include centerBox();
+			@media (max-width: 1440px) {
+				max-width: 310px;
+			}
+			img {
+				width: 100%;
+			}
+			@media (max-width: 768px) {
+				display: none;
+			}
+		}
+	}
+	.backRightThree {
+		position: absolute;
+		top: 30px;
+		right: 0;
+		left: auto;
+		z-index: 0;
+	}
+	.backLeftThree {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: auto;
+		z-index: 0;
+	}
+	h2 {
+		font-family: $fontFamily;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 48px;
+		line-height: 64px;
+		text-align: center;
+		margin-bottom: 118px;
+		z-index: 1;
+		@media (max-width: 1440px) {
+			font-size: 35px;
+			margin-bottom: 40px;
+		}
+		@media (max-width: 768px) {
+			margin-bottom: 34px;
+			line-height: 40px;
+		}
+	}
+	p {
+		font-family: $fontFamily;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 26px;
+		line-height: 35px;
+		text-align: center;
+		margin-bottom: 30px;
+		max-width: 1187px;
+		z-index: 1;
+		@media (max-width: 768px) {
+			font-size: 24px;
+			line-height: 30px;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+		@media (max-width: 600px) {
+			padding: 10px;
+			margin-bottom: 0;
+		}
+	}
+	.buttonContainer {
+		width: 100%;
+		text-align: center;
+
+		@include centerBox();
+		.orangeButton {
+			max-width: 680px;
+			font-family: $fontFamily;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 45px;
+			line-height: 70px;
+			@media (max-width: 1440px) {
+				font-size: 35px;
+				max-width: 600px;
+			}
+			@media (max-width: 768px) {
+				max-width: 320px;
+				font-size: 24px;
+				line-height: 20px;
+				margin-top: 15px;
+			}
+		}
+	}
+}

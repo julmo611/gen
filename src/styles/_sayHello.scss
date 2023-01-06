@@ -1,0 +1,213 @@
+.sayHello-section {
+	width: 100%;
+	font-family: $headerTitle;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 100px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background: linear-gradient(
+		179.1deg,
+		#6c3696 1.55%,
+		#8f5cbe 14.84%,
+		#372185 31.8%,
+		#3e97a3 57.3%,
+		#124da0 75.48%,
+		#3b0367 100%
+	);
+	@media (max-width: 1440px) {
+		font-size: 60px;
+	}
+	h2 {
+		@media (max-width: 768px) {
+			font-size: 40px;
+			line-height: 45px;
+		}
+	}
+	.strong {
+		font-family: $fontFamily;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 85px;
+		@media (max-width: 1440px) {
+			font-size: 42px;
+		}
+		@media (max-width: 768px) {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+	.carouselContainer {
+		margin: 20px auto;
+		@media (max-width: 600px) {
+			margin: 10px auto;
+		}
+
+		.carouselImage {
+			img {
+				width: 200px;
+				height: auto;
+				-webkit-box-shadow: 20px 10px 10px rgba($color4, 0.4);
+				-moz-box-shadow: 20px 10px 10px rgba($color4, 0.4);
+				box-shadow: 20px 10px 10px rgba($color4, 0.4);
+				border-radius: 20px;
+			}
+		}
+		.react-multi-carousel-dot-list {
+			display: none;
+		}
+	}
+	.tableContainer {
+		width: 100%;
+		table {
+			max-width: 1429px;
+			margin: 0 auto;
+			@media (max-width: 1440px) {
+				max-width: 1100px;
+			}
+			thead {
+				.topCell {
+					.tcOne {
+						font-family: $headerTitle;
+						font-style: normal;
+						font-weight: 400;
+						font-size: 48px;
+						line-height: 50px;
+						/* gold */
+						background: linear-gradient(135.12deg, #e1971e 0%, #fde859 100%);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+						background-clip: text;
+						text-fill-color: transparent;
+						@media (max-width: 1440px) {
+							font-size: 30px;
+						}
+						@media (max-width: 768px) {
+							line-height: 30px;
+							font-size: 28px;
+						}
+						@media (max-width: 600px) {
+							font-size: 22px;
+							line-height: 28px;
+						}
+					}
+					.tcTwo {
+						font-family: $headerTitle;
+						font-style: normal;
+						font-weight: 400;
+						font-size: 48px;
+						line-height: 61px;
+						/* silver */
+
+						background: linear-gradient(135.12deg, #717171 0.01%, #e8e8e8 100%);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+						background-clip: text;
+						text-fill-color: transparent;
+						@media (max-width: 1440px) {
+							font-size: 30px;
+						}
+						@media (max-width: 768px) {
+							line-height: 30px;
+							font-size: 28px;
+						}
+						@media (max-width: 600px) {
+							font-size: 22px;
+							line-height: 28px;
+						}
+					}
+				}
+				.tHeader {
+					.thOne {
+						font-family: $fontFamily;
+						font-style: normal;
+						font-weight: 800;
+						font-size: 26px;
+						line-height: 50px;
+						color: $dark;
+						/* gold */
+
+						background: linear-gradient(135.12deg, #e1971e 0%, #fde859 100%);
+						border-radius: 30px 30px 0px 0px;
+						@media (max-width: 1440px) {
+							font-size: 20px;
+							line-height: 40px;
+						}
+					}
+					.thTwo {
+						font-family: $fontFamily;
+						font-style: normal;
+						font-weight: 800;
+						font-size: 26px;
+						line-height: 50px;
+						color: $dark;
+						/* silver */
+
+						background: linear-gradient(135.12deg, #717171 0.01%, #e8e8e8 100%);
+						border-radius: 30px 30px 0px 0px;
+						@media (max-width: 1440px) {
+							font-size: 20px;
+							line-height: 40px;
+						}
+						@media (max-width: 600px) {
+							line-height: 29px;
+						}
+					}
+				}
+			}
+			tbody {
+				tr {
+					td {
+						// height: auto;
+						min-height: 167px;
+						font-family: $fontFamily;
+						font-style: normal;
+						font-weight: 400;
+						font-size: 22px;
+						line-height: 30px;
+						color: $light;
+						padding: 25px 30px;
+						border-right: 2px $light solid;
+						&:nth-child(1) {
+							border-left: 2px $light solid;
+						}
+						@media (max-width: 1440px) {
+							font-size: 22px;
+							line-height: 30px;
+							min-height: 90px;
+							padding: 25px 10px;
+						}
+						@media (max-width: 768px) {
+							padding: 25px 10px;
+							font-size: 18px;
+							line-height: 25px;
+							border: none;
+							&:nth-child(1) {
+								border-left: none;
+							}
+							&:nth-child(odd) {
+								border-right: 2px $light solid;
+							}
+						}
+
+						.whiteSpace {
+							width: 150px;
+							color: $dark;
+							background-color: $dark;
+							display: inline-block;
+							font-size: 20px;
+							line-height: 26px;
+						}
+					}
+
+					&:nth-child(even) {
+						background: rgba(217, 217, 217, 0.2);
+					}
+				}
+			}
+		}
+	}
+}

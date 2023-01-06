@@ -1,0 +1,96 @@
+.nfts101-page-content {
+	font-size: 24px;
+	background: url('../assets/NFTS-background.jpg') no-repeat, $color2;
+	padding-bottom: 20px;
+	position: relative;
+	.NFTBackg {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		top: 0;
+		z-index: 0;
+	}
+	.nfts101-page {
+		z-index: 5;
+		h2 {
+			max-width: 900px;
+			width: 100%;
+			text-align: center;
+			margin: 10px auto;
+			@media (max-width: 768px) {
+				margin: 50px auto 10px;
+			}
+		}
+		.wrapper {
+			width: 100%;
+			max-width: 900px;
+			margin: 0 auto;
+			z-index: 2;
+		}
+
+		.accordion-wrapper {
+			& + * {
+				margin-top: 0.5em;
+			}
+		}
+
+		.accordion-item {
+			overflow: hidden;
+			transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+			height: auto;
+			max-height: 9999px;
+		}
+
+		.accordion-item.collapsed {
+			max-height: 0;
+			transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+		}
+
+		.accordion-title {
+			font-weight: 600;
+			cursor: pointer;
+			color: rgb(255, 255, 255);
+			padding: 5px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: 1px white solid;
+			&::after {
+				content: ' + ';
+				@include centerBox();
+				padding: 5px;
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				background: rgba(217, 217, 217, 0.3);
+				font-size: 30px;
+				font-weight: bold;
+				// width: 0;
+				// height: 0;
+				// border-left: 12px solid transparent;
+				// border-right: 12px solid transparent;
+				// border-top: 12px solid currentColor;
+			}
+
+			&:hover,
+			&.open {
+				color: white;
+			}
+
+			&.open {
+				&::after {
+					content: '';
+					border-top: 0;
+					border-bottom: 12px solid;
+				}
+			}
+		}
+
+		.accordion-content {
+			padding: 1em 1.5em;
+			p {
+				margin-bottom: 15px;
+			}
+		}
+	}
+}

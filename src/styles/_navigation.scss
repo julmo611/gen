@@ -1,0 +1,81 @@
+.navbar {
+	width: 100%;
+	z-index: 999999999;
+	position: relative;
+	@include centerBox(space-between, flex-start);
+	margin: 0 auto 0;
+	background: linear-gradient(
+		180deg,
+		#11073c 0%,
+		rgba(48, 0, 85, 0) 100%,
+		#11073c 100%
+	);
+	@media (max-width: 1442px) {
+		padding: 0 15px;
+	}
+	@media (max-width: 768px) {
+		margin-bottom: 0px;
+	}
+
+	.logo-container {
+		img {
+			width: 100%;
+			max-width: 190px;
+			height: auto;
+		}
+		@media (max-width: 600px) {
+			text-align: center;
+			width: 100%;
+		}
+	}
+
+	.linksNav {
+		@include centerBox();
+		z-index: 9999999999999999999;
+		@media (max-width: 768px) {
+			margin: 0 auto;
+		}
+		a {
+			display: flex;
+			padding: 10px 20px;
+			font-family: $fontFamily;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 36px;
+			line-height: 48px;
+			@media (max-width: 1440px) {
+				font-size: 20px;
+				padding: 10px 50px;
+			}
+			@media (max-width: 768px) {
+				font-size: 20px;
+				padding: 10px 20px;
+			}
+
+			@media (max-width: 600px) {
+				padding: 10px;
+			}
+
+			&:hover {
+				color: #b1b1b1;
+			}
+		}
+	}
+	.socialLinks {
+		padding: 10px 5px;
+		@include centerBox();
+		@media (max-width: 1440px) {
+		}
+		@media (max-width: 768px) {
+			margin: 0 auto;
+		}
+		a {
+			display: flex;
+			margin: 5px;
+			img {
+				width: 32px;
+				height: auto;
+			}
+		}
+	}
+}

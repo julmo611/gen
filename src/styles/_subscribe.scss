@@ -1,0 +1,19 @@
+.subscirbePage {
+	background-image: url('../assets/Join-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 30px;
+	.popUpContainer {
+		@include centerBox();
+		margin-top: 10px;
+		z-index: 0;
+		.popUpFullContainer {
+			background-color: rgba($dark, 0);
+			z-index: 0;
+			position: relative;
+			.closeBtn {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,127 @@
+footer {
+	background-color: $mainColor;
+	@include centerBox();
+	padding-top: 10px;
+
+	position: relative;
+	@media (max-width: 768px) {
+		border-radius: 0px;
+		padding-top: 50px;
+		margin-top: 0;
+		z-index: 1;
+	}
+
+	h2 {
+		font-family: $headerTitle;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 70px;
+		line-height: 89px;
+		text-align: center;
+		margin-bottom: 50px;
+
+		strong {
+			background: linear-gradient(
+					91.34deg,
+					#df9018 27.35%,
+					#ffee5e 35.24%,
+					#df9018 42.97%
+				),
+				#ffffff;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+		}
+		span {
+			font-family: $fontFamily;
+		}
+		@media (max-width: 1440px) {
+			font-size: 40px;
+		}
+		@media (max-width: 768px) {
+			line-height: 45px;
+			margin-bottom: 20px;
+		}
+	}
+	.bottomContainer {
+		margin-bottom: 10px;
+		z-index: 5;
+		width: 100%;
+		max-width: 1150px;
+		@include centerBox(space-evenly, center);
+		.linksNav {
+			a {
+				margin: 10px;
+			}
+		}
+		.mailchimpS {
+			margin: 0 auto;
+			@media (max-width: 768px) {
+				margin: 30px auto;
+			}
+		}
+		.fSocialMedia {
+			z-index: 1;
+
+			@include centerBox();
+			img {
+				width: 32px;
+				height: auto;
+				margin: 5px;
+			}
+		}
+	}
+	.footerNavigation {
+		z-index: 1;
+		width: 100%;
+		max-width: 800px;
+		@include centerBox(space-between, center);
+		a {
+			display: flex;
+			padding: 10px;
+			font-family: $fontFamily;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 21px;
+			line-height: 40px;
+			text-align: center;
+			&:hover {
+				color: rgb(194, 194, 194);
+			}
+		}
+		@media (max-width: 768px) {
+			@include centerBox();
+		}
+	}
+	.footerLogoContainer {
+		width: 100%;
+		margin: 10px auto;
+		text-align: center;
+		z-index: 1;
+		img {
+			max-width: 250px;
+		}
+	}
+	h5 {
+		z-index: 1;
+		width: 100%;
+		margin-top: 20px;
+		font-family: $fontFamily;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 21px;
+		line-height: 40px;
+		text-align: center;
+
+		@media (max-width: 768px) {
+			font-size: 18px;
+		}
+	}
+	.elipseBackground {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		z-index: 0;
+	}
+}

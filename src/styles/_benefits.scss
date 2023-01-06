@@ -1,0 +1,156 @@
+.benefitsSection {
+	position: relative;
+	padding-top: 50px;
+	background: linear-gradient(
+		179.1deg,
+		#6c3696 1.55%,
+		#8f5cbe 14.84%,
+		#372185 31.8%,
+		#3e97a3 57.3%,
+		#124da0 75.48%,
+		#3b0367 100%
+	);
+	@media (max-width: 768px) {
+		padding-top: 20px;
+	}
+	h2 {
+		@include centerBox();
+		text-align: center;
+		font-family: $headerTitle;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 80px;
+		margin-bottom: 20px;
+		margin-block-start: 0;
+		margin-block-end: 0;
+		margin-inline-start: 0;
+		margin-inline-end: 0;
+		@media (max-width: 1440px) {
+			font-size: 40px;
+			line-height: 60px;
+		}
+
+		@media (max-width: 768px) {
+			font-size: 28px;
+			line-height: 30px;
+			margin-bottom: 0;
+		}
+
+		img {
+			@media (max-width: 1440px) {
+				width: 300px;
+			}
+			@media (max-width: 768px) {
+				width: 200px;
+			}
+		}
+	}
+	h3 {
+		margin-bottom: 10px;
+		font-family: $fontFamily;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 85px;
+		text-align: center;
+		@media (max-width: 1440px) {
+			font-size: 40px;
+			line-height: 60px;
+		}
+		@media (max-width: 768px) {
+			font-size: 28px;
+			line-height: 40px;
+			margin-bottom: 50px;
+		}
+		@media (max-width: 600px) {
+			margin-bottom: 0;
+		}
+	}
+	.backRightSix {
+		position: absolute;
+		top: 30px;
+		right: 0;
+		left: auto;
+		z-index: 0;
+		@media (max-width: 1440px) {
+			width: 26%;
+		}
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+	.backLeftSix {
+		position: absolute;
+		top: 100px;
+		left: 0;
+		right: auto;
+		z-index: 0;
+		width: 21%;
+		@media (max-width: 1440px) {
+			width: 26%;
+		}
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+
+	ul {
+		@include centerBox();
+		li {
+			width: 100%;
+			max-width: 1166px;
+			@include centerBox(flex-start, center);
+			font-family: $fontFamily;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 26px;
+			line-height: 30px;
+			@media (max-width: 1440px) {
+				max-width: 800px;
+			}
+			@media (max-width: 768px) {
+				font-size: 22px;
+				line-height: 20px;
+				@include centerBox();
+				margin: 0 auto;
+			}
+
+			.iconNumber {
+				width: 20%;
+				max-width: 121px;
+				@media (max-width: 1440px) {
+					max-width: 90px;
+				}
+				@media (max-width: 768px) {
+					width: 40px;
+				}
+
+				img {
+					width: 88px;
+					height: auto;
+					@media (max-width: 1440px) {
+						width: 64px;
+					}
+					@media (max-width: 768px) {
+						width: 50px;
+					}
+				}
+			}
+			p {
+				width: 80%;
+				padding: 12px;
+				@media (max-width: 768px) {
+					margin-left: 10px;
+					text-align: left;
+					font-size: 24px;
+					line-height: 28px;
+				}
+			}
+			&:nth-child(even) {
+				.iconNumber {
+					text-align: right;
+				}
+			}
+		}
+	}
+}
