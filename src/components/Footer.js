@@ -92,6 +92,13 @@ export default function Footer() {
 				<Link to="/Privacy-Policy">Privacy Policy</Link>
 				<Link to="/official-rules">Official Rules</Link>
 				<Link to="/terms-and-conditions">Terms and Conditions</Link>
+				<a
+					href="https://raritysniper.com/nft-drops-calendar"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					NFT Drops
+				</a>
 			</div>
 			<h5>
 				<a

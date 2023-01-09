@@ -14,22 +14,22 @@ export default function PrivacyPolicy() {
 				<div className="contentWrapEx">
 					<h1>PRIVACY POLICY</h1>
 					<div className="textWrap">
-						<p>As of April 25, 2022</p>
-
+						<p>As of December 28, 2022</p>
 						<p>
 							This Privacy Policy explains Core Memories, LLC (hereinafter
 							“Company” or “we”, “our” or “us”) commitments and your rights
 							concerning your information. The Privacy Policy is incorporated in
-							and subject to the <u>Terms And Conditions</u> stated on the
-							www.genxnfts.xyz website (the “Site”) and governs the Site , its
-							subdomains, and any services provided by the Site (collectively
+							and subject to the{' '}
+							<a href="/terms-and-conditions">Terms And Conditions</a> and{' '}
+							<a href="/nftterms">NFT Terms</a> stated on the www.genxnfts.xyz
+							website (the “Site”) and governs the Site, its subdomains, and any
+							services provided by or in connection with the Site (collectively
 							the “Services”). You should read the Privacy Policy carefully. If
 							you do not agree with this Privacy Policy, please do not use our
 							Site or Services. By using the Site or any of our Services, you
 							consent to our collection and use of your information in
-							accordance with this Privacy Policy.{' '}
+							accordance with this Privacy Policy.
 						</p>
-
 						<p>
 							We ask that you read this Privacy Policy from time to time. We may
 							modify it at any time in our sole discretion. If we make material
@@ -40,9 +40,7 @@ export default function PrivacyPolicy() {
 							Where permitted by law, your use of the Site and/or Services
 							indicates that you accept the terms of this Privacy Policy.
 						</p>
-
 						<h3>WE COLLECT INFORMATION THE FOLLOWING WAYS:</h3>
-
 						<p>
 							<strong>
 								1. When you give it to us or give us permission to obtain it
@@ -51,17 +49,43 @@ export default function PrivacyPolicy() {
 							We may collect information from you in a variety of ways such as
 							your name, email address, social media
 							usernames/handles/data/account information (e.g., Twitter,
-							Discord, etc.), wallet address, and phone number. You may,
-							however, visit our Site anonymously if you choose to do so. We
-							will collect information from you only if you voluntarily choose
-							to submit such information to us. You can always refuse to provide
-							this information to us. If you choose to subscribe to a Service
-							from us, we or the mobile operator of your network will collect
-							your information related to the payment for the subscription of
-							our Services. Account and billing information collected by the
-							mobile operator is subject to their respective privacy policies.
+							Discord, etc.), your billing and/or shipping address, payment card
+							information (which is collected and processed by our third-party
+							payment processor and we do not have access to your full payment
+							card information), phone number and your blockchain-compatible
+							digital or cryptocurrency wallet that you connect to our Services
+							including, without limitation, the public address thereof
+							(“Wallet”). You may, however, visit our Site anonymously if you
+							choose to do so. We will collect information from you only if you
+							voluntarily choose to submit such information to us. You can
+							always refuse to provide this information to us. If you choose to
+							subscribe to a Service from us, we or the mobile operator of your
+							network will collect your information related to the payment for
+							the subscription of our Services. Account and billing information
+							collected by the mobile operator is subject to their respective
+							privacy policies.
 						</p>
-
+						<p>
+							When you order or make purchases with respect to certain Services
+							through our Site, we may require you to submit your payment
+							information via our third-party payment processor. The payment
+							information our processor collects may include your credit or
+							debit card number or your bank account number, the expiration date
+							of your credit or debit card, purchase amount, date of purchase,
+							payment method and/or any Wallet information. Our processor may
+							also collect certain personal information from you, such as your
+							name, billing address, and, if applicable, shipping address. We do
+							not have access to full payment card numbers or bank account
+							numbers.
+						</p>
+						<p>
+							occasion, we may provide you with the opportunity to participate
+							in contests/sweepstakes, receive a special offer, or provide us
+							with feedback via a survey. To make these Services available to
+							you, we will use the email address, name, Wallet, and/or social
+							media usernames/handles/data/account information (e.g., Twitter,
+							Discord, etc.) that you provided us when you registered.
+						</p>
 						<p>
 							<strong>
 								2. We get technical information when you visit our Site and/or
@@ -84,10 +108,9 @@ export default function PrivacyPolicy() {
 							stored on your device’s hard drive for record-keeping purposes and
 							sometimes to track information. For example, we use cookies to
 							store your language preferences or other redundant settings, so
-							you don‘t have to set them up every time you visit our Site or
-							Services.
+							you don’t have to set them up every time you visit our Site or
+							Services.{' '}
 						</p>
-
 						<p>
 							<strong>
 								3. Our partners and advertisers collect and share information
@@ -113,13 +136,37 @@ export default function PrivacyPolicy() {
 							expose the IP address of visitors to the owners of the website on
 							which Google Analytics is installed.
 						</p>
-
+						<p>
+							<strong>4. Blockchain Information</strong>
+							<br />
+							As part of the Services, we process certain personal data in a
+							blockchain data record. This means that such personal data is
+							stored in an immutable blockchain as part of a database called a
+							distributed ledger. Anything stored in a ledger as part of the
+							blockchain (“Blockchain Information”) may not be changed or
+							deleted. Blockchain Information includes, but is not limited to,
+							(i) the public address of any Wallet; (ii) any blockchain-based or
+							Web3 domain names (e.g., a domain name registered with the
+							Ethereum Name Service or Unstoppable Domains) associated with the
+							Wallet; and (iii) corresponding data relating to the minting,
+							purchase, sale, transfer, and any other transaction involving
+							non-fungible tokens (NFTs) or cryptocurrency, including the
+							purchase price, date, time, and location of the transactions. We
+							may use pseudonymization to reduce the risk to individuals whose
+							personal data is processed in the blockchain. Please carefully
+							review how the use of blockchain with our Service may limit the
+							exercise of certain of your rights regarding personal data in
+							Privacy Notice for California Residents included below in this
+							Privacy Policy.
+						</p>
 						<h3>HOW WE USE COLLECTED INFORMATION</h3>
-
 						<p>We may use your information for the following purposes:</p>
 						<ul>
 							<li>Provide the Service(s) you request;</li>
-							<li>Allow you to participate in certain features of the Site;</li>
+							<li>
+								Allow you to participate in certain features of the Site,
+								including Services;
+							</li>
 							<li>Bill and collect for the Service(s) provided to you;</li>
 							<li>Send you marketing communications;</li>
 							<li>Provide customer care;</li>
@@ -128,7 +175,11 @@ export default function PrivacyPolicy() {
 								sweepstakes, or other promotions);
 							</li>
 							<li>Protect our rights or property;</li>
-							<li>Enforce the Terms And Conditions stated on the Site;</li>
+							<li>
+								Enforce the{' '}
+								<a href="/terms-and-conditions">Terms And Conditions</a> and/or{' '}
+								<a href="/nftterms">NFT Terms</a> stated on the Site;
+							</li>
 							<li>Comply with legal requirements;</li>
 							<li>To improve our Site and Services;</li>
 							<li>
@@ -155,7 +206,6 @@ export default function PrivacyPolicy() {
 								Respond to court orders, subpoenas or other legal proceedings.
 							</li>
 						</ul>
-
 						<p>
 							According to privacy legislation, we are required to disclose on
 							what legal grounds we are able to use your information. We require
@@ -182,7 +232,6 @@ export default function PrivacyPolicy() {
 							Residents included below in this Privacy Policy for more
 							information.
 						</p>
-
 						<p>
 							The Site is operated in the United States. If you are located in
 							another jurisdiction, please be aware that the data we collect
@@ -198,18 +247,19 @@ export default function PrivacyPolicy() {
 							to appropriate safeguards and ensure that your data is treated
 							securely and in accordance with this Privacy Policy.
 						</p>
-
 						<h3>HOW LONG WE KEEP YOUR INFORMATION</h3>
 						<p>
 							We will retain your information for as long as needed to provide
 							our Services to you. We will retain your information as necessary
 							to comply with our legal obligations, resolve disputes and enforce
-							our agreements. When we no longer need to use your information and
-							there is no need for us to keep it to comply with our legal or
-							regulatory obligations, we will either remove it from our systems
-							or depersonalize it so that we can’t identify you.
+							our agreements.
 						</p>
-
+						<p>
+							When we no longer need to use your information and there is no
+							need for us to keep it to comply with our legal or regulatory
+							obligations, we will either remove it from our systems or
+							depersonalize it so that we can’t identify you.
+						</p>
 						<h3>HOW WE PROTECT YOUR INFORMATION</h3>
 						<p>
 							We are concerned with protecting your privacy and data, but we
@@ -228,7 +278,6 @@ export default function PrivacyPolicy() {
 							its absolute security. We will continue to enhance our security
 							procedures as new technology becomes available.
 						</p>
-
 						<h3>SHARING YOUR INFORMATION</h3>
 						<p>
 							We share your personal information with third party companies who
@@ -241,19 +290,20 @@ export default function PrivacyPolicy() {
 							promotions, or ticketed events, third-party vendors and partners
 							that sell items, offer promotions, or provide services to you
 							through our services (either alone or jointly with us), and other
-							support services as necessary, including ad delivery and analysis.
+							support services as necessary, including ad delivery and analysis.{' '}
 						</p>
 						<p>
 							We may also share your personal information when we determine that
 							doing so is appropriate to our and your security. This may include
-							verifying compliance with and to enforce our Terms And Conditions
-							stated on the Site, to protect our property, the Services, Site
-							and our legal rights, to protect the personal safety or the
-							property of others, to respond to lawful requests from
-							governmental authorities, to comply with applicable laws, and to
-							support auditing, compliance and corporate governance functions.
+							verifying compliance with and to enforce our{' '}
+							<a href="/terms-and-conditions">Terms And Conditions</a> and/or{' '}
+							<a href="/nftterms">NFT Terms</a> stated on the Site, to protect
+							our property, the Services, the Site and our legal rights, to
+							protect the personal safety or the property of others, to respond
+							to lawful requests from governmental authorities, to comply with
+							applicable laws, and to support auditing, compliance and corporate
+							governance functions.
 						</p>
-
 						<p>
 							Through your use of the Site, you may access, directly or
 							indirectly, other websites or services, including from our service
@@ -263,7 +313,6 @@ export default function PrivacyPolicy() {
 							those third parties. It is up to you to review the terms of use
 							and privacy policies of those third parties.
 						</p>
-
 						<h3>CHILDREN’S PRIVACY</h3>
 						<p>
 							Protecting the privacy of young children is especially important.
@@ -282,87 +331,86 @@ export default function PrivacyPolicy() {
 							Residents included below in this Privacy Policy for more
 							information.
 						</p>
-
-						<h3>CALIFORNIA PRIVACY RIGHTS</h3>
-						<p>
-							If you are a California resident, California law may provide you
-							with additional rights regarding our use of your personal
-							information. To learn more about your California privacy rights,
-							please see our Privacy Notice for California Residents included
-							below in this Privacy Policy.{' '}
-						</p>
-
+						CALIFORNIA PRIVACY RIGHTS If you are a California resident,
+						California law may provide you with additional rights regarding our
+						use of your personal information. To learn more about your
+						California privacy rights, please see our Privacy Notice for
+						California Residents included below in this Privacy Policy.
 						<h3>EU PRIVACY POLICY</h3>
 						<p>
 							If you are a resident of the European Union, please review our
 							Privacy Notice for EU section below for additional information
 							about your rights.
 						</p>
-
 						<h3>CONTACTING US</h3>
 						<p>
 							We want you to be in control of how your personal data is used by
 							us. You can do this in the following ways:
 						</p>
-						<p>
-							1. You can ask us for a copy of the personal data we hold about
-							you;
-							<br />
-							2. You can inform us of any changes to your personal data, or you
-							can ask us to correct any of the personal data we hold about you;
-							<br />
-							3. In certain situations, you can ask us to erase, block, or
-							restrict the processing of the personal data we hold about you, or
-							object to particular ways in which we are using your personal
-							data; and
-							<br />
-							4. In certain situations, you can also ask us to send the personal
-							data you have given us to a third party. Where we use your
-							personal data on the basis of your consent, you are entitled to
-							withdraw that consent at any time subject to applicable law.
-							Moreover, where we process your personal data based on legitimate
-							interest, you have the right to object at any time to that use of
-							your personal data subject to applicable law.
-						</p>
-
+						<ol>
+							<li>
+								You can ask us for a copy of the personal data we hold about
+								you;
+							</li>
+							<li>
+								You can inform us of any changes to your personal data, or you
+								can ask us to correct any of the personal data we hold about
+								you;
+							</li>
+							<li>
+								In certain situations, you can ask us to erase, block, or
+								restrict the processing of the personal data we hold about you,
+								or object to particular ways in which we are using your personal
+								data; and
+							</li>
+							<li>
+								In certain situations, you can also ask us to send the personal
+								data you have given us to a third party. Where we use your
+								personal data on the basis of your consent, you are entitled to
+								withdraw that consent at any time subject to applicable law.
+								Moreover, where we process your personal data based on
+								legitimate interest, you have the right to object at any time to
+								that use of your personal data subject to applicable law.
+							</li>
+						</ol>
 						<p>
 							We rely on you to ensure that your personal data is complete,
 							accurate and current. Please inform us of any changes to or
 							inaccuracies of to your personal data by contacting us
-							immediately. For any of your requests, as well as questions about
-							this Privacy Policy, the practices of the Site, or your dealings
-							with the Site, please contact us by sending an e-mail to
+							immediately.
+						</p>
+						<p>
+							For any of your requests, as well as questions about this Privacy
+							Policy, the practices of the Site, or your dealings with the Site,
+							please contact us by sending an e-mail to
 							signupgenxnfts@gmail.com.{' '}
 						</p>
-
 						<p>
 							You can contact the same e-mail address if you want to object to
 							the processing of your personal data on the basis of legitimate
 							interest and no opt-out mechanism is available to you directly.
 						</p>
-
 						<hr />
-
-						<p>As of April 25, 2022</p>
+						<p>As of December 28, 2022</p>
 						<p>
 							This Privacy Notice for California Residents supplements the
 							information contained in our Privacy Policy and applies solely to
 							all visitors, users, and others who reside in the State of
 							California (“consumers” or “you”). This Privacy Notice for
-							California Residents is incorporated in and subject to the Terms
-							And Conditions stated on the Site and governs the same Services
-							and Site(s) as the ones mentioned in the Terms And Conditions
-							stated on the Site. Any terms we use in this Privacy Notice for
-							California Residents without defining them have the same
-							definition given to them in the Privacy Policy or Terms And
-							Conditions stated on the Site, as applicable.
+							California Residents is incorporated in and subject to the{' '}
+							<a href="/terms-and-conditions">Terms And Conditions</a> and{' '}
+							<a href="/nftterms">NFT Terms</a> stated on the Site and governs
+							the same Services and Site(s) as the ones mentioned in the Terms
+							And Conditions stated on the Site. Any terms we use in this
+							Privacy Notice for California Residents without defining them have
+							the same definition given to them in the Privacy Policy or Terms
+							And Conditions stated on the Site, as applicable.
 						</p>
 						<p>
 							We adopt this notice to comply with the California Consumer
 							Privacy Act of 2018 (“CCPA”) and any terms defined in the CCPA
 							have the same meaning when used in this notice.
 						</p>
-
 						<p>
 							We ask that you read this Privacy Notice for California Residents
 							from time to time. We may modify it at any time in our sole
@@ -374,9 +422,7 @@ export default function PrivacyPolicy() {
 							by law, your use of the Site and/or Services indicates that you
 							accept the terms of this Privacy Notice for California Residents.
 						</p>
-
 						<h3>INFORMATION WE COLLECT</h3>
-
 						<p>
 							We collect information that identifies, relates to, describes, is
 							reasonably capable of being associated with, or could reasonably
@@ -395,7 +441,6 @@ export default function PrivacyPolicy() {
 							Act, the California Financial Information Privacy Act, and the
 							Driver’s Privacy Protection Act of 1994.
 						</p>
-
 						<table>
 							<tr>
 								<th>Categories</th>
@@ -423,9 +468,10 @@ export default function PrivacyPolicy() {
 									number, insurance policy number, education, employment,
 									employment history, bank account number, credit card number,
 									debit card number, or any other financial information, medical
-									information, or health insurance information. Some personal
-									information included in this category may overlap with other
-									categories
+									information, or health insurance information.
+									<br />
+									Some personal information included in this category may
+									overlap with other categories
 								</td>
 								<td>No</td>
 							</tr>
@@ -517,7 +563,6 @@ export default function PrivacyPolicy() {
 								<td>No</td>
 							</tr>
 						</table>
-
 						<p>
 							As further detailed in our Privacy Policy, we obtain the
 							categories of personal information listed above from the following
@@ -525,32 +570,23 @@ export default function PrivacyPolicy() {
 						</p>
 						<ul>
 							<li>
-								<strong>
-									<u>Directly from you.</u>
-								</strong>{' '}
-								For example, information that you provide by filling in forms,
-								records and copies of your correspondence if you contact us,
-								details of transactions and your subscriptions to the Services.
+								<u>Directly from you</u>. For example, information that you
+								provide by filling in forms, records and copies of your
+								correspondence if you contact us, details of transactions and
+								your subscriptions to the Services.
 							</li>
 							<li>
-								<strong>
-									<u>Indirectly from you.</u>
-								</strong>{' '}
-								For example, observing your actions on the Sites or your use of
-								our Services, or through the use of cookies or other
-								technologies to automatically collect information from you.
+								<u>Indirectly from you</u>. For example, observing your actions
+								on the Sites or your use of our Services, or through the use of
+								cookies or other technologies to automatically collect
+								information from you.
 							</li>
 							<li>
-								<strong>
-									<u>Third party business partners.</u>
-								</strong>{' '}
-								For example, any payment processing service, NFT app/platform or
-								otherwise.
+								<u>Third party business partners</u>. For example, any payment
+								processing service, NFT app/platform or otherwise.
 							</li>
 						</ul>
-
 						<h3>USE OF PERSONAL INFORMATION</h3>
-
 						<p>
 							As further detailed in our Privacy Policy, we may use or disclose
 							the personal information we collect for one or more of the
@@ -562,7 +598,11 @@ export default function PrivacyPolicy() {
 							<li>Send you marketing communications;</li>
 							<li>Provide customer care;</li>
 							<li>Protect our rights or property;</li>
-							<li>Enforce the Terms And Conditions stated on the Site;</li>
+							<li>
+								Enforce the{' '}
+								<a href="/terms-and-conditions">Terms And Conditions</a> and{' '}
+								<a href="/nftterms">NFT Terms</a> stated on the Site;
+							</li>
 							<li>Comply with legal requirements;</li>
 							<li>Improve our Sites and Services;</li>
 							<li>
@@ -577,14 +617,12 @@ export default function PrivacyPolicy() {
 								as otherwise set forth in the CCPA.
 							</li>
 						</ul>
-
 						<p>
 							We will not collect additional categories of personal information
 							or use the personal information we collected for materially
 							different, unrelated, or incompatible purposes without providing
 							you notice.
 						</p>
-
 						<h3>SHARING PERSONAL INFORMATION</h3>
 						<p>
 							We may share personal information to a third party for a business
@@ -594,7 +632,6 @@ export default function PrivacyPolicy() {
 							confidential and not use it for any purpose except performing the
 							contract.
 						</p>
-
 						<p>
 							We share personal information with the following categories of
 							third parties:
@@ -608,7 +645,6 @@ export default function PrivacyPolicy() {
 							</li>
 							<li>Parent or subsidiary organizations.</li>
 						</ul>
-
 						<h3>DISCLOSURES OF PERSONAL INFORMATION FOR A BUSINESS PURPOSE</h3>
 						<p>
 							In the preceding twelve (12) months, we have disclosed and/or may
@@ -622,10 +658,8 @@ export default function PrivacyPolicy() {
 							<li>Commercial information; and</li>
 							<li>Internet or other similar network activity.</li>
 						</ul>
-
 						<h3>SALES OF PERSONAL INFORMATION</h3>
 						<p>We do not sell personal information for any purpose.</p>
-
 						<h3>YOUR RIGHTS AND CHOICES</h3>
 						<p>
 							The CCPA provides consumers (California residents) with specific
@@ -633,9 +667,7 @@ export default function PrivacyPolicy() {
 							describes your CCPA rights and explains how to exercise those
 							rights.
 						</p>
-
 						<h3>ACCESS TO SPECIFIC INFORMATION AND DATA PORTABILITY RIGHTS</h3>
-
 						<p>
 							You have the right to request that we disclose certain information
 							to you about our collection and use of your personal information
@@ -644,7 +676,6 @@ export default function PrivacyPolicy() {
 							Portability, and Deletion Rights section below), we will disclose
 							to you:
 						</p>
-
 						<ul>
 							<li>
 								The categories of personal information we collected about you;
@@ -671,7 +702,6 @@ export default function PrivacyPolicy() {
 								each category of recipient obtained.
 							</li>
 						</ul>
-
 						<h3>DELETION REQUEST RIGHTS</h3>
 						<p>
 							You have the right to request that we delete any of your personal
@@ -682,12 +712,10 @@ export default function PrivacyPolicy() {
 							service providers to delete) your personal information from our
 							records, unless an exception applies.
 						</p>
-
 						<p>
 							We may deny your deletion request if retaining the information for
 							us or our service provider(s) to:
 						</p>
-
 						<ul>
 							<li>
 								Complete the transaction for which we collected the personal
@@ -732,7 +760,6 @@ export default function PrivacyPolicy() {
 								compatible with the context in which you provided it.
 							</li>
 						</ul>
-
 						<h3>EXERCISING ACCESS, DATA PORTABILITY, AND DELETION RIGHTS</h3>
 						<p>
 							To exercise the access, data portability, and deletion rights
@@ -742,7 +769,6 @@ export default function PrivacyPolicy() {
 						<ul>
 							<li>Email: signupgenxnfts@gmail.com </li>
 						</ul>
-
 						<p>
 							Only you, or a person registered with the California Secretary of
 							State that you authorize to act on your behalf, may make a
@@ -755,7 +781,6 @@ export default function PrivacyPolicy() {
 							portability twice within a twelve (12) month period. The
 							verifiable consumer request must:
 						</p>
-
 						<ul>
 							<li>
 								Provide sufficient information that allows us to reasonably
@@ -767,7 +792,6 @@ export default function PrivacyPolicy() {
 								properly understand, evaluate, and respond to it.
 							</li>
 						</ul>
-
 						<p>
 							We cannot respond to your request or provide you with personal
 							information if we cannot verify your identity or authority to make
@@ -779,7 +803,6 @@ export default function PrivacyPolicy() {
 							provided in a verifiable consumer request to verify the
 							requestor’s identity or authority to make the request.
 						</p>
-
 						<h3>RESPONSE TIMING AND FORMAT</h3>
 						<p>
 							We endeavor to respond to a verifiable consumer request within
@@ -808,13 +831,11 @@ export default function PrivacyPolicy() {
 							will tell you why we made that decision and provide you with a
 							cost estimate before completing your request.
 						</p>
-
 						<h3>NON-DISCRIMINATION</h3>
 						<p>
 							We will not discriminate against you for exercising any of your
 							CCPA rights. Unless permitted by the CCPA, we will not:
 						</p>
-
 						<ul>
 							<li>Deny you goods or services;</li>
 							<li>
@@ -832,9 +853,7 @@ export default function PrivacyPolicy() {
 								services.
 							</li>
 						</ul>
-
 						<h3>CONTACT INFORMATION</h3>
-
 						<p>
 							If you have any questions, concerns, or comments about this
 							notice, the way in which we collect and use your information
@@ -844,26 +863,25 @@ export default function PrivacyPolicy() {
 						<ul>
 							<li>Email: signupgenxnfts@gmail.com </li>
 						</ul>
-
 						<hr />
-
-						<p>As of April 25, 2022</p>
-
+						<p>As of December 28, 2022</p>
 						<p>
 							This Privacy Notice for EU supplements the information contained
 							in our Privacy Policy and applies solely to all visitors, users,
 							and others who reside in the European Union, or “EU” (“consumers”
 							or “you”), relating to your rights under the General Data
 							Protection Regulation (“GDPR”). This Privacy Notice for EU is
-							incorporated in and subject to the Terms And Conditions stated on
-							the Site and governs the same Services and Site(s) as the ones
-							mentioned in the Terms And Conditions stated on the Site. Any
-							terms we use in this Privacy Notice for EU Residents without
-							defining them have the same definition given to them in the
-							Privacy Policy, GDPR, or Terms And Conditions stated on the Site,
-							as applicable.
+							incorporated in and subject to the Terms And Conditions and NFT
+							Terms stated on the Site and governs the same Services and Site(s)
+							as the ones mentioned in the{' '}
+							<a href="/terms-and-conditions">Terms And Conditions</a> and NFT
+							Terms stated on the Site. Any terms we use in this Privacy Notice
+							for EU Residents without defining them have the same definition
+							given to them in the Privacy Policy, GDPR, or{' '}
+							<a href="/terms-and-conditions">Terms And Conditions</a> or{' '}
+							<a href="/nftterms">NFT Terms</a> stated on the Site, as
+							applicable.
 						</p>
-
 						<p>
 							We ask that you read this Privacy Notice for EU from time to time.
 							We may modify it at any time in our sole discretion. If we make
@@ -875,14 +893,11 @@ export default function PrivacyPolicy() {
 							and/or Services indicates that you accept the terms of this
 							Privacy Notice for EU.
 						</p>
-
 						<h3>YOUR GDPR RIGHTS</h3>
-
 						<p>
 							The GDPR provides residents of the EU with the following rights
 							regarding their personal data:
 						</p>
-
 						<ul>
 							<li>
 								Right to be informed about the collection and use of your
@@ -896,7 +911,6 @@ export default function PrivacyPolicy() {
 							<li>Right to object to the processing of your personal data</li>
 							<li>Right to object to automated decision making </li>
 						</ul>
-
 						<p>
 							To exercise any of these rights, please submit a verifiable
 							consumer request to us via:
@@ -904,7 +918,6 @@ export default function PrivacyPolicy() {
 						<ul>
 							<li>Email: signupgenxnfts@gmail.com. </li>
 						</ul>
-
 						<p>
 							We will respond to any requests within the time required by the
 							GDPR. After you submit your request, you will be sent a
@@ -913,14 +926,11 @@ export default function PrivacyPolicy() {
 							information from you to verify your identity before we process
 							your request.
 						</p>
-
 						<h3>LEGAL BASIS FOR PROCESSING PERSONAL DATA</h3>
-
 						<p>
 							To the extent you provide us with personal data, we are processing
 							your personal data under one of the following lawful bases:
 						</p>
-
 						<ul>
 							<li>
 								Consent. By opting-in, you consent to permit us to process your
@@ -932,11 +942,9 @@ export default function PrivacyPolicy() {
 								data in order to comply with certain of our legal obligations.
 							</li>
 						</ul>
-
 						<h3>
 							COOKIES, PIXEL TAGS, AND OTHER SIMILAR TRACKING TECHNOLOGIES
 						</h3>
-
 						<p>
 							To the extent required by applicable law, we will obtain your
 							consent before collecting data using cookies, pixel tags, and
@@ -948,7 +956,6 @@ export default function PrivacyPolicy() {
 							have not accepted, then we only collect your personal data based
 							on our legitimate interests.{' '}
 						</p>
-
 						<ul>
 							<li>
 								Consent. By opting-in, you consent to permit us to process your
@@ -960,7 +967,6 @@ export default function PrivacyPolicy() {
 								data in order to comply with certain of our legal obligations.
 							</li>
 						</ul>
-
 						<h3>CONTACT INFORMATION</h3>
 						<p>
 							If you have any questions, concerns, or comments about this
