@@ -4,15 +4,8 @@
 	font-weight: 400;
 	font-size: 26px;
 	line-height: 50px;
-	padding-bottom: 150px;
+	padding-bottom: 20px;
 	padding-top: 50px;
-	// background: linear-gradient(
-	// 	179.1deg,
-	// 	#372185 0%,
-	// 	#1d669f 57.3%,
-	// 	#0f459c 80%,
-	// 	$mainColor 100%
-	// );
 	background: $dark;
 	@media (max-width: 768px) {
 		padding-top: 50px;

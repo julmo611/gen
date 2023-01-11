@@ -64,13 +64,16 @@
 		@media (max-width: 768px) {
 			margin-top: 20px;
 		}
+		@media (max-width: 600px) {
+			padding: 10px;
+		}
 		.joinD {
 			width: 50%;
 			max-width: 550px;
 			position: relative;
 			padding: 15px 67px;
 			margin: 0 auto;
-			background: linear-gradient(180deg, #5c69f4 10%, #cbcfff 100%);
+			background: linear-gradient(135.12deg, #2f79b5 0%, #0a7bab 100%);
 			/* Purple Blur photo */
 
 			box-shadow: 0px 0px 121px #af58ff;
@@ -129,7 +132,7 @@
 			margin: 0 auto;
 			position: relative;
 			padding: 15px 67px;
-			background: linear-gradient(135.12deg, #d12952 0%, #fdc2de 100%);
+			background: linear-gradient(180deg, #d14e6e -10.83%, #e44a73 93.44%);
 			/* Purple Blur photo */
 
 			box-shadow: 0px 0px 121px #af58ff;
@@ -164,6 +167,9 @@
 					font-size: 30px;
 					line-height: 35px;
 				}
+				@media (max-width: 390px) {
+					font-size: 28px;
+				}
 			}
 			.followLinks {
 				margin-top: 35px;
@@ -171,6 +177,10 @@
 				img {
 					width: 40px;
 					height: 40px;
+					@media (max-width: 600px) {
+						width: 30px;
+						height: 30px;
+					}
 				}
 			}
 		}
@@ -179,7 +189,7 @@
 			margin-top: 10px;
 			padding: 15px 67px;
 			width: 100%;
-			background: linear-gradient(135.12deg, #107fae 0%, #b5f1fb 100%);
+			background: linear-gradient(135.12deg, #6d77e9 0%, #3745f5 100%);
 			/* Purple Blur photo */
 
 			box-shadow: 0px 0px 121px #af58ff;
@@ -267,6 +277,9 @@
 			img {
 				width: 100px;
 			}
+		}
+		@media (max-width: 390px) {
+			line-height: 25px;
 		}
 	}
 }

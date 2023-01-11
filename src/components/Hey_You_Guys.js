@@ -13,7 +13,7 @@ export default function Hey_You_Guys() {
 				<img src={papergame} alt="Game image" />
 			</div>
 			<div className="half-col-container">
-				<h2>HEYYY... YOUUU... GUYYYS!!!</h2>
+				<h2>HEYYY YOUUU GUYYYS!!!</h2>
 				<p>
 					The Metaverse is coming - and it doesn't care about you. It's made for
 					people who were weaned on social media.
