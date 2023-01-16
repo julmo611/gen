@@ -94,6 +94,13 @@ export default function Footer() {
 				<Link to="/Privacy-Policy">Privacy Policy</Link>
 				<Link to="/official-rules">Official Rules</Link>
 				<Link to="/terms-and-conditions">Terms and Conditions</Link>
+				<a
+					href="https://www.premint.xyz/genxnfts/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					NFT Drops
+				</a>
 			</div>
 			<div className="footerLogosLinks">
 				<a

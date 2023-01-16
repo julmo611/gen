@@ -6,6 +6,7 @@ import Learn from './Pages/Learn';
 import OfficialRules from './Pages/OfficialRules';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
 import TermsAndConditions from './Pages/TermsAndConditions';
+import Nftterms from './Pages/NftTerms';
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Route path="/" element={<Home />} />
 			<Route path="/Privacy-Policy" element={<PrivacyPolicy />} />
 			<Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+			<Route path="/nftterms" element={<Nftterms />} />
 			<Route path="/official-rules" element={<OfficialRules />} />
 			<Route path="/learn" element={<Learn />} />
 			<Route path="/join" element={<Join />} />
