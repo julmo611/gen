@@ -97,6 +97,20 @@ footer {
 			@include centerBox();
 		}
 	}
+	.footerLogosLinks {
+		width: 100%;
+		z-index: 1;
+		@include centerBox();
+		a {
+			display: flex;
+			max-width: 120px;
+			padding: 5px 10px;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
 	.footerLogoContainer {
 		width: 100%;
 		margin: 0px auto;

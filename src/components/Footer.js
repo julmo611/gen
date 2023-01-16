@@ -10,6 +10,8 @@ import youtube from '../assets/Youtube.png';
 import opensea from '../assets/Opensea.png';
 import footerBackg from '../assets/footer-background.png';
 import logo from '../assets/Logo.png';
+import rarity from '../assets/Rariry-sniper.png';
+import calendar from '../assets/NFT-calendar-white.svg';
 import Mailchimp from './/MailchimpFormContainer';
 
 export default function Footer() {
@@ -92,12 +94,21 @@ export default function Footer() {
 				<Link to="/Privacy-Policy">Privacy Policy</Link>
 				<Link to="/official-rules">Official Rules</Link>
 				<Link to="/terms-and-conditions">Terms and Conditions</Link>
+			</div>
+			<div className="footerLogosLinks">
 				<a
 					href="https://raritysniper.com/nft-drops-calendar"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					NFT Drops
+					<img src={rarity} alt="Rarity Snaiper logo" />
+				</a>
+				<a
+					href="https://nftcalendar.io/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={calendar} alt="NFT Calendar logo" />
 				</a>
 			</div>
 			<h5>
