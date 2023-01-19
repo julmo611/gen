@@ -109,7 +109,7 @@ export default function TermsAndConditions() {
 
 						<p>
 							<strong>
-								1. <u></u>Reviewing and Accepting These Terms
+								1. <u>Reviewing and Accepting These Terms</u>
 							</strong>
 							<br />
 							Please read these Terms carefully, as they set out your rights and

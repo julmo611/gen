@@ -11,7 +11,7 @@ import instagram from '../assets/Instagram.png';
 import tiktok from '../assets/Tiktok.png';
 import linkedin from '../assets/linkedin.png';
 import Mailchimp from './MailchimpFormContainer';
-import Footer from './Footer';
+import FooterTwo from './FooterTwo';
 
 export default function Join() {
 	const [loading, setLoading] = useState(false);
@@ -128,7 +128,7 @@ export default function Join() {
 							</a>
 						</h2>
 					</div>
-					<Footer />
+					<FooterTwo />
 				</>
 			)}
 		</>

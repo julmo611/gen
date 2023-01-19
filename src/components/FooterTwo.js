@@ -12,9 +12,9 @@ import footerBackg from '../assets/footer-background.png';
 import logo from '../assets/Logo.png';
 import rarity from '../assets/Rariry-sniper.png';
 import calendar from '../assets/NFT-calendar-white.svg';
-import Mailchimp from './/MailchimpFormContainer';
+import Mailchimp from './MailchimpFormContainer';
 
-export default function Footer() {
+export default function FooterTwo() {
 	return (
 		<footer>
 			<h2>
@@ -122,6 +122,7 @@ export default function Footer() {
 				</a>
 			</h5>
 			<h5>Copyright © 2022 Core Memories, LLC. All Rights Reserved.</h5>
+			<h6>8 The Green, STE B, Dover, DE 19901</h6>
 			<img src={footerBackg} alt="Elipse" className="elipseBackground" />
 		</footer>
 	);

@@ -4,6 +4,7 @@
 	background-size: cover;
 	@include centerBox();
 	.titleContainer {
+		width: 100%;
 		@include centerBox();
 		h1 {
 			font-family: $fontFamily;
