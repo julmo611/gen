@@ -45,20 +45,24 @@ export default function OficialRules() {
 						</p>
 
 						<p>
-							2. <u>How it Works.</u> From time-to-time, Core Memories, LLC dba
-							Gen-X NFTs (“Sponsor”) will present different sweepstakes and/or
-							random drawings, each with separate entry pools, prizes and start
-							and end dates (each, a “Random Drawing”). Entry method(s) for each
-							Random Drawing will be posted and communicated by Sponsor in the
-							call to action in advance of each applicable Random Drawing (which
-							entry methods may include, without limitation, online submission
-							form on a Sponsor website, Sponsor social media account, Sponsor
-							Google form, Premint page, or other location). The end date for
-							each Random Drawing and the corresponding prize(s) will be posted
-							in the call to action for that Random Drawing. Prize(s) may
-							include, without limitation, a non-fungible token, or “NFT,” and
-							the actual/appraised prize value may differ at the time the prize
-							is awarded.
+							2.{' '}
+							<strong>
+								<u>How it Works.</u>
+							</strong>{' '}
+							From time-to-time, Core Memories, LLC dba Gen-X NFTs (“Sponsor”)
+							will present different sweepstakes and/or random drawings, each
+							with separate entry pools, prizes and start and end dates (each, a
+							“Random Drawing”). Entry method(s) for each Random Drawing will be
+							posted and communicated by Sponsor in the call to action in
+							advance of each applicable Random Drawing (which entry methods may
+							include, without limitation, online submission form on a Sponsor
+							website, Sponsor social media account, Sponsor Google form,
+							Premint page, or other location). The end date for each Random
+							Drawing and the corresponding prize(s) will be posted in the call
+							to action for that Random Drawing. Prize(s) may include, without
+							limitation, a non-fungible token, or “NFT,” and the
+							actual/appraised prize value may differ at the time the prize is
+							awarded.
 						</p>
 
 						<p>Maximum one (1) entry per person per Random Drawing.</p>
@@ -143,9 +147,9 @@ export default function OficialRules() {
 
 						<p>
 							4.{' '}
-							<stron>
+							<strong>
 								<u>Winner Selection; Prize; Odds</u>
-							</stron>
+							</strong>
 							. By the date that is on or about ten (10) days after the end date
 							noted for each Random Drawing, the potential winner(s) will be
 							selected in a random drawing, under the supervision of the
@@ -185,60 +189,63 @@ export default function OficialRules() {
 						</p>
 
 						<p>
-							5. Winner Notification and Acceptance. Potential winners will be
-							notified via the email address or other contact information
-							provided at time of entry and/or via Sponsor’s website, Discord
-							server, Twitter account and/or other social media account (as
-							determined by Sponsor in its sole discretion) with instructions on
-							how to claim the applicable prize. Sponsor will have no liability
-							for any potential winner notification that is lost, intercepted or
-							not received by a potential winner for any reason. If, despite
-							reasonable efforts, a potential winner does not respond within
-							twenty-four (24) hours of the first notification attempt, or if
-							any prize or prize notification is returned as unclaimed or
-							undeliverable to such potential winner, such potential winner will
-							forfeit his or her prize and an alternate winner may be selected.
-							Sponsor, in its sole discretion, will attempt to contact up to
-							three (3) potential winners of a prize in accordance with the
-							above procedure, after which the prize in question may go
-							unawarded if it remains unclaimed. The applicable prize will be
-							awarded only if the Sponsor has verified that the winner has (i)
-							complied with these Official Rules and (ii) completed, signed and
-							returned to the Sponsor documents required by Sponsor (which may
-							include, without limitation, an Affidavit, Release and W-9) within
-							three (3) days of receiving the same from the Sponsor. Entrants’
-							personal information will be utilized by the Sponsor for
-							fulfillment of the prize and to comply with legal requirements. To
-							review Sponsor’s Privacy Policy, go to
-							https://www.genxnfts.xyz/Privacy-Policy. If any potential prize
-							winner is found to be ineligible, or if he or she has not complied
-							with these Official Rules or declines the prize for any reason
-							prior to award, such potential prize winner will be disqualified
-							and an alternate prize winner may be selected. Each prize is
-							non-assignable and non-transferable. No substitutions allowed by
-							winner. Each prize and any individual components of any prize
-							package are subject to availability and Sponsor reserves the right
-							to substitute prize(s) of equal or greater value at any time.
-							Winner is solely responsible for all expenses related to the
-							applicable prize, including, without limitation, reporting and
-							payment of any taxes on all prizes (including, without limitation,
-							federal, state and local taxes) as well as any other costs and
-							expenses associated with acceptance and use of a prize. Winner may
-							be issued an IRS form 1099 based on the actual value of the prize
-							awarded. Failure to comply with any term or condition of these
-							Official Rules, may result in a winner’s disqualification, the
-							forfeiture of his or her interest in the prize, and the award of
-							the prize to a substitute winner. Except where prohibited,
-							acceptance of any prize constitutes winner’s consent to the
-							publication of his or her name, biographical information and
-							likeness in any media for any commercial or promotional purpose,
-							without limitation the Internet, or further compensation. The
-							winner may be asked to provide the Sponsor with a valid Social
-							Security number or taxpayer-identification number, as well as
-							execute additional documents required by Sponsor in connection
-							with the applicable Random Drawing (e.g., affidavit of
-							eligibility, W-9, release, etc.), before the Sponsor can award the
-							applicable prize.
+							5.{' '}
+							<strong>
+								<u>Winner Notification and Acceptance</u>
+							</strong>
+							. Potential winners will be notified via the email address or
+							other contact information provided at time of entry and/or via
+							Sponsor’s website, Discord server, Twitter account and/or other
+							social media account (as determined by Sponsor in its sole
+							discretion) with instructions on how to claim the applicable
+							prize. Sponsor will have no liability for any potential winner
+							notification that is lost, intercepted or not received by a
+							potential winner for any reason. If, despite reasonable efforts, a
+							potential winner does not respond within twenty-four (24) hours of
+							the first notification attempt, or if any prize or prize
+							notification is returned as unclaimed or undeliverable to such
+							potential winner, such potential winner will forfeit his or her
+							prize and an alternate winner may be selected. Sponsor, in its
+							sole discretion, will attempt to contact up to three (3) potential
+							winners of a prize in accordance with the above procedure, after
+							which the prize in question may go unawarded if it remains
+							unclaimed. The applicable prize will be awarded only if the
+							Sponsor has verified that the winner has (i) complied with these
+							Official Rules and (ii) completed, signed and returned to the
+							Sponsor documents required by Sponsor (which may include, without
+							limitation, an Affidavit, Release and W-9) within three (3) days
+							of receiving the same from the Sponsor. Entrants’ personal
+							information will be utilized by the Sponsor for fulfillment of the
+							prize and to comply with legal requirements. To review Sponsor’s
+							Privacy Policy, go to https://www.genxnfts.xyz/Privacy-Policy. If
+							any potential prize winner is found to be ineligible, or if he or
+							she has not complied with these Official Rules or declines the
+							prize for any reason prior to award, such potential prize winner
+							will be disqualified and an alternate prize winner may be
+							selected. Each prize is non-assignable and non-transferable. No
+							substitutions allowed by winner. Each prize and any individual
+							components of any prize package are subject to availability and
+							Sponsor reserves the right to substitute prize(s) of equal or
+							greater value at any time. Winner is solely responsible for all
+							expenses related to the applicable prize, including, without
+							limitation, reporting and payment of any taxes on all prizes
+							(including, without limitation, federal, state and local taxes) as
+							well as any other costs and expenses associated with acceptance
+							and use of a prize. Winner may be issued an IRS form 1099 based on
+							the actual value of the prize awarded. Failure to comply with any
+							term or condition of these Official Rules, may result in a
+							winner’s disqualification, the forfeiture of his or her interest
+							in the prize, and the award of the prize to a substitute winner.
+							Except where prohibited, acceptance of any prize constitutes
+							winner’s consent to the publication of his or her name,
+							biographical information and likeness in any media for any
+							commercial or promotional purpose, without limitation the
+							Internet, or further compensation. The winner may be asked to
+							provide the Sponsor with a valid Social Security number or
+							taxpayer-identification number, as well as execute additional
+							documents required by Sponsor in connection with the applicable
+							Random Drawing (e.g., affidavit of eligibility, W-9, release,
+							etc.), before the Sponsor can award the applicable prize.
 						</p>
 
 						<p>

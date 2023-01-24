@@ -16,16 +16,13 @@ export default function TermsAndConditions() {
 					<div className="textWrap">
 						<p>Last Updated: December 28, 2022</p>
 						<p>
-							<i>
-								Please read these Terms And Conditions (the “Terms”) and our
-								<a href="/Privacy-Policy">Privacy Policy</a> (“Privacy Policy”)
-								carefully because they govern your use of the website located at
-								https://genxnfts.xyz and the content, services and
-								functionalities accessible in any manner via such website
-								(collectively, the “Site”) offered by or on behalf of Core
-								Memories, LLC (“CM” or “we”), a Delaware limited liability
-								company.
-							</i>
+							Please read these Terms And Conditions (the “Terms”) and our
+							<a href="/Privacy-Policy">Privacy Policy</a> (“Privacy Policy”)
+							carefully because they govern your use of the website located at
+							https://genxnfts.xyz and the content, services and functionalities
+							accessible in any manner via such website (collectively, the
+							“Site”) offered by or on behalf of Core Memories, LLC (“CM” or
+							“we”), a Delaware limited liability company.
 						</p>
 						<p>
 							<strong>IMPORTANT NOTICE REGARDING ARBITRATION:</strong> WHEN YOU
