@@ -71,7 +71,7 @@ export default function FAQ() {
 				</Accordion>
 				<Accordion title="How Many NFTs Can I Buy?">
 					<p>
-						You can purchase up to 3 NFTs per wallet for each of the VIP
+						You can purchase up to 4 NFTs per wallet for each of the VIP
 						Collection and the Genesis Collection.
 					</p>
 				</Accordion>
