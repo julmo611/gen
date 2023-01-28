@@ -29,12 +29,12 @@ export default function Header() {
 			</p>
 			<div className="buttonContainer">
 				<a
-					href="https://www.premint.xyz/genxnfts"
+					href="https://mint.genxnfts.xyz/"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="orangeButton"
 				>
-					Join Our Allowlist
+					Mint A VIP Now
 				</a>
 			</div>
 			<div className="asFeatured">
