@@ -41,7 +41,7 @@ export default function Learn_Connect_Stop() {
 					<h3>SCORE</h3>
 					<p>membership benefits just for hanging out with us.</p>
 					<a
-						href="https://www.premint.xyz/genxnfts/"
+						href="https://mint.genxnfts.xyz/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="callToAction"
