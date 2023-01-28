@@ -75,7 +75,7 @@ export default function Navigation() {
 					<img src={linkedin} alt="Linkedin icon" />
 				</a>
 				<a
-					href="https://opensea.io/GenXOfficial"
+					href="https://opensea.io/collection/gen-x-nfts-the-vip-collection"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

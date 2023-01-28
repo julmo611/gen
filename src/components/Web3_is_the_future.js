@@ -15,7 +15,7 @@ export default function Web3_is_the_future() {
 					<img src={docBrown} alt="Doctor Brown" />
 				</div>
 				<div className="btfImage">
-					<img src={web3IsTheFuture} alt="Web3 is the Future image" />
+					<img src={web3IsTheFuture} alt="Web3 is the Future" />
 				</div>
 				<div className="mcfly">
 					<img src={mcfly} alt="McFly" />
@@ -41,7 +41,7 @@ export default function Web3_is_the_future() {
 				lovers that doesn’t feel like you’re stuck in detention.
 			</p>
 			<div className="buttonContainer">
-				<a href="/join" className="orangeButton">
+				<a href="https://mint.genxnfts.xyz" className="orangeButton">
 					I'm down! Let's do this!
 				</a>
 			</div>

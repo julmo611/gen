@@ -38,7 +38,7 @@ export default function Header() {
 				</a>
 			</div>
 			<div className="asFeatured">
-				<img src={asFeatured} alt="As Featured image" />
+				<img src={asFeatured} alt="As Featured" />
 			</div>
 			<div className="pacmanGroup">
 				<img src={pacman} alt="Pacman" />

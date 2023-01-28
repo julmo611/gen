@@ -8,7 +8,7 @@ export default function Start_Me_Up() {
 	return (
 		<section className="startMeUp-section">
 			<div className="titleImage">
-				<img src={start_me_up} alt="Start Me Up - image" />
+				<img src={start_me_up} alt="Start Me Up" />
 			</div>
 			<div className="subTitleStartMeUp">
 				<h4>
@@ -40,7 +40,7 @@ export default function Start_Me_Up() {
 					<p>On mint day,</p>
 
 					<a
-						href="https://www.premint.xyz/genxnfts/"
+						href="https://mint.genxnfts.xyz"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="yellowButtonTwo"

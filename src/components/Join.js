@@ -120,7 +120,7 @@ export default function Join() {
 						<h2 className="oneUpSubt">
 							And of course, <strong>buy a GEN-X NFT</strong>{' '}
 							<a
-								href=" https://www.premint.xyz/genxnfts/"
+								href="https://mint.genxnfts.xyz"
 								target="_blank"
 								rel="noopener noreferrer"
 							>

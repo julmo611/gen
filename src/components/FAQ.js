@@ -82,7 +82,7 @@ export default function FAQ() {
 						for you, if you paid with a credit card). You can connect your
 						wallet to an account in OpenSea and see your NFT(s){' '}
 						<a
-							href="https://opensea.io/GenXOfficial"
+							href="https://opensea.io/collection/gen-x-nfts-the-vip-collection"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
