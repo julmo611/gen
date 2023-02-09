@@ -41,6 +41,7 @@ export default function PrivacyPolicy() {
 							indicates that you accept the terms of this Privacy Policy.
 						</p>
 						<h3>WE COLLECT INFORMATION THE FOLLOWING WAYS:</h3>
+						<p></p>
 						<p>
 							<strong>
 								1. When you give it to us or give us permission to obtain it
@@ -79,12 +80,13 @@ export default function PrivacyPolicy() {
 							numbers.
 						</p>
 						<p>
-							occasion, we may provide you with the opportunity to participate
-							in contests/sweepstakes, receive a special offer, or provide us
-							with feedback via a survey. To make these Services available to
-							you, we will use the email address, name, Wallet, and/or social
-							media usernames/handles/data/account information (e.g., Twitter,
-							Discord, etc.) that you provided us when you registered.
+							On occasion, we may provide you with the opportunity to
+							participate in contests/sweepstakes, receive a special offer, or
+							provide us with feedback via a survey. To make these Services
+							available to you, we will use the email address, name, Wallet,
+							and/or social media usernames/handles/data/account information
+							(e.g., Twitter, Discord, etc.) that you provided us when you
+							registered.
 						</p>
 						<p>
 							<strong>
@@ -160,6 +162,7 @@ export default function PrivacyPolicy() {
 							Privacy Policy.
 						</p>
 						<h3>HOW WE USE COLLECTED INFORMATION</h3>
+						<p></p>
 						<p>We may use your information for the following purposes:</p>
 						<ul>
 							<li>Provide the Service(s) you request;</li>
@@ -206,6 +209,7 @@ export default function PrivacyPolicy() {
 								Respond to court orders, subpoenas or other legal proceedings.
 							</li>
 						</ul>
+						<p></p>
 						<p>
 							According to privacy legislation, we are required to disclose on
 							what legal grounds we are able to use your information. We require
@@ -331,11 +335,13 @@ export default function PrivacyPolicy() {
 							Residents included below in this Privacy Policy for more
 							information.
 						</p>
-						CALIFORNIA PRIVACY RIGHTS If you are a California resident,
-						California law may provide you with additional rights regarding our
-						use of your personal information. To learn more about your
-						California privacy rights, please see our Privacy Notice for
-						California Residents included below in this Privacy Policy.
+						<p>
+							CALIFORNIA PRIVACY RIGHTS If you are a California resident,
+							California law may provide you with additional rights regarding
+							our use of your personal information. To learn more about your
+							California privacy rights, please see our Privacy Notice for
+							California Residents included below in this Privacy Policy.
+						</p>
 						<h3>EU PRIVACY POLICY</h3>
 						<p>
 							If you are a resident of the European Union, please review our
@@ -373,6 +379,7 @@ export default function PrivacyPolicy() {
 								that use of your personal data subject to applicable law.
 							</li>
 						</ol>
+						<p></p>
 						<p>
 							We rely on you to ensure that your personal data is complete,
 							accurate and current. Please inform us of any changes to or
@@ -769,6 +776,7 @@ export default function PrivacyPolicy() {
 						<ul>
 							<li>Email: signupgenxnfts@gmail.com </li>
 						</ul>
+						<p></p>
 						<p>
 							Only you, or a person registered with the California Secretary of
 							State that you authorize to act on your behalf, may make a
@@ -918,6 +926,7 @@ export default function PrivacyPolicy() {
 						<ul>
 							<li>Email: signupgenxnfts@gmail.com. </li>
 						</ul>
+						<p></p>
 						<p>
 							We will respond to any requests within the time required by the
 							GDPR. After you submit your request, you will be sent a
