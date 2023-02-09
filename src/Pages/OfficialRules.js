@@ -49,20 +49,19 @@ export default function OficialRules() {
 							<strong>
 								<u>How it Works.</u>
 							</strong>{' '}
-							From time-to-time, Core Memories, LLC dba Gen-X NFTs (“Sponsor”)
-							will present different sweepstakes and/or random drawings, each
-							with separate entry pools, prizes and start and end dates (each, a
-							“Random Drawing”). Entry method(s) for each Random Drawing will be
-							posted and communicated by Sponsor in the call to action in
-							advance of each applicable Random Drawing (which entry methods may
-							include, without limitation, online submission form on a Sponsor
-							website, Sponsor social media account, Sponsor Google form,
-							Premint page, or other location). The end date for each Random
-							Drawing and the corresponding prize(s) will be posted in the call
-							to action for that Random Drawing. Prize(s) may include, without
-							limitation, a non-fungible token, or “NFT,” and the
-							actual/appraised prize value may differ at the time the prize is
-							awarded.
+							From time-to-time, Core Memories, LLC (“Sponsor”) will present
+							different sweepstakes and/or random drawings, each with separate
+							entry pools, prizes and start and end dates (each, a “Random
+							Drawing”). Entry method(s) for each Random Drawing will be posted
+							and communicated by Sponsor in the call to action in advance of
+							each applicable Random Drawing (which entry methods may include,
+							without limitation, online submission form on a Sponsor website,
+							Sponsor social media account, Sponsor Google form, Premint page,
+							or other location). The end date for each Random Drawing and the
+							corresponding prize(s) will be posted in the call to action for
+							that Random Drawing. Prize(s) may include, without limitation, a
+							non-fungible token, or “NFT,” and the actual/appraised prize value
+							may differ at the time the prize is awarded.
 						</p>
 
 						<p>Maximum one (1) entry per person per Random Drawing.</p>
@@ -672,7 +671,7 @@ export default function OficialRules() {
 								valid and enforceable.
 							</li>
 						</ul>
-
+						<p></p>
 						<p>
 							12.{' '}
 							<strong>
