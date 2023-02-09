@@ -1587,42 +1587,46 @@ export default function PrivacyPolicy() {
 							TO THESE TERMS.
 						</p>
 						<p>
-							Agreement to Attempt to Resolve Disputes Through Good Faith
-							Negotiations. Prior to commencing any legal proceeding against us
-							of any kind, including an arbitration as set forth below, you and
-							we agree that we will attempt to resolve any dispute, claim, or
-							controversy between us arising out of or relating to these Terms,
-							the NFTs, or the Services by engaging in good faith negotiations.
-							Such good faith negotiations require, at a minimum, that the
-							aggrieved party provide a written notice to the other party
-							specifying the nature and details of the dispute. The party
-							receiving such notice shall have (30) days to respond to the
-							notice. Within sixty (60) days after the aggrieved party sent the
-							initial notice, the parties shall meet and confer in good faith by
-							videoconference or by telephone to try to resolve the dispute. If
-							the parties are unable to resolve the dispute within ninety (90)
-							days after the aggrieved party sent the initial notice, the
-							parties may agree to mediate their dispute, or either party may
-							submit the dispute to arbitration as set forth below.
+							<i>
+								Agreement to Attempt to Resolve Disputes Through Good Faith
+								Negotiations
+							</i>
+							. Prior to commencing any legal proceeding against us of any kind,
+							including an arbitration as set forth below, you and we agree that
+							we will attempt to resolve any dispute, claim, or controversy
+							between us arising out of or relating to these Terms, the NFTs, or
+							the Services by engaging in good faith negotiations. Such good
+							faith negotiations require, at a minimum, that the aggrieved party
+							provide a written notice to the other party specifying the nature
+							and details of the dispute. The party receiving such notice shall
+							have (30) days to respond to the notice. Within sixty (60) days
+							after the aggrieved party sent the initial notice, the parties
+							shall meet and confer in good faith by videoconference or by
+							telephone to try to resolve the dispute. If the parties are unable
+							to resolve the dispute within ninety (90) days after the aggrieved
+							party sent the initial notice, the parties may agree to mediate
+							their dispute, or either party may submit the dispute to
+							arbitration as set forth below.
 						</p>
 						<p>
-							Applicability of Arbitration Agreement. You agree that any dispute
-							or claim relating in any way to your access or use of the Site, to
-							any Services sold, made available, or distributed through or in
-							connection with the Site, or the NFTs, or to any aspect of your
-							relationship with Company will be resolved by binding arbitration,
-							rather than in court, except that (1) you may assert claims in
-							small claims court if your claims qualify; and (2) Company may
-							seek equitable relief in court for infringement or other misuse of
-							intellectual property rights (such as trademarks, trade dress,
-							domain names, trade secrets, copyrights, and patents).
+							<i>Applicability of Arbitration Agreement.</i> You agree that any
+							dispute or claim relating in any way to your access or use of the
+							Site, to any Services sold, made available, or distributed through
+							or in connection with the Site, or the NFTs, or to any aspect of
+							your relationship with Company will be resolved by binding
+							arbitration, rather than in court, except that (1) you may assert
+							claims in small claims court if your claims qualify; and (2)
+							Company may seek equitable relief in court for infringement or
+							other misuse of intellectual property rights (such as trademarks,
+							trade dress, domain names, trade secrets, copyrights, and
+							patents).
 						</p>
 						<p>
-							Arbitration Rules and Forum. The Federal Arbitration Act governs
-							the interpretation and enforcement of this Arbitration Agreement.
-							To begin an arbitration proceeding, you must send a letter
-							requesting arbitration and describing your claim to us at Core
-							Memories, LLC, Legal Department, 8 The Green, STE B, Dover,
+							<i>Arbitration Rules and Forum</i>. The Federal Arbitration Act
+							governs the interpretation and enforcement of this Arbitration
+							Agreement. To begin an arbitration proceeding, you must send a
+							letter requesting arbitration and describing your claim to us at
+							Core Memories, LLC, Legal Department, 8 The Green, STE B, Dover,
 							Delaware, 19901. The arbitration will be conducted by JAMS, an
 							established alternative dispute resolution provider. Disputes
 							involving claims and counterclaims under $250,000, not inclusive
@@ -1651,31 +1655,32 @@ export default function PrivacyPolicy() {
 							and costs.
 						</p>
 						<p>
-							Authority of Arbitrator. The arbitrator shall have exclusive
-							authority to (a) determine the scope and enforceability of this
-							Arbitration Agreement and (b) resolve any dispute related to the
-							interpretation, applicability, enforceability or formation of this
-							Arbitration Agreement including, but not limited to any claim that
-							all or any part of this Arbitration Agreement is void or voidable.
-							The arbitration will decide the rights and liabilities, if any, of
-							you and Company. The arbitration proceeding will not be
-							consolidated with any other matters or joined with any other cases
-							or parties. The arbitrator shall have the authority to award
-							monetary damages and to grant any non-monetary remedy or relief
-							available to an individual under applicable law, the arbitral
-							forum’s rules, and the Agreement (including the Arbitration
-							Agreement). The arbitrator shall issue a written award and
-							statement of decision describing the essential findings and
-							conclusions on which the award is based, including the calculation
-							of any damages awarded. The arbitrator has the same authority to
-							award relief on an individual basis that a judge in a court of law
-							would have. The award of the arbitrator is final and binding upon
-							you and Company. And you agree that to the extent monetary or
-							non-monetary remedy or relief is granted, such request for relief
-							may be enforced as needed by any court of competent jurisdiction.
+							<i>Authority of Arbitrator</i>. The arbitrator shall have
+							exclusive authority to (a) determine the scope and enforceability
+							of this Arbitration Agreement and (b) resolve any dispute related
+							to the interpretation, applicability, enforceability or formation
+							of this Arbitration Agreement including, but not limited to any
+							claim that all or any part of this Arbitration Agreement is void
+							or voidable. The arbitration will decide the rights and
+							liabilities, if any, of you and Company. The arbitration
+							proceeding will not be consolidated with any other matters or
+							joined with any other cases or parties. The arbitrator shall have
+							the authority to award monetary damages and to grant any
+							non-monetary remedy or relief available to an individual under
+							applicable law, the arbitral forum’s rules, and the Agreement
+							(including the Arbitration Agreement). The arbitrator shall issue
+							a written award and statement of decision describing the essential
+							findings and conclusions on which the award is based, including
+							the calculation of any damages awarded. The arbitrator has the
+							same authority to award relief on an individual basis that a judge
+							in a court of law would have. The award of the arbitrator is final
+							and binding upon you and Company. And you agree that to the extent
+							monetary or non-monetary remedy or relief is granted, such request
+							for relief may be enforced as needed by any court of competent
+							jurisdiction.
 						</p>
 						<p>
-							Waiver of Jury Trial. YOU AND COMPANY HEREBY WAIVE ANY
+							<i>Waiver of Jury Trial</i>. YOU AND COMPANY HEREBY WAIVE ANY
 							CONSTITUTIONAL AND STATUTORY RIGHTS TO SUE IN COURT AND HAVE A
 							TRIAL IN FRONT OF A JUDGE OR A JURY. You and Company are instead
 							electing that all claims and disputes shall be resolved by
@@ -1687,7 +1692,7 @@ export default function PrivacyPolicy() {
 							arbitration award is subject to very limited review.
 						</p>
 						<p>
-							Waiver of Class or Other Non-Individualized Relief.{' '}
+							<i>Waiver of Class or Other Non-Individualized Relief</i>.{' '}
 							<strong>
 								ALL CLAIMS AND DISPUTES WITHIN THE SCOPE OF THIS ARBITRATION
 								AGREEMENT MUST BE ARBITRATED ON AN INDIVIDUAL BASIS AND NOT ON A
